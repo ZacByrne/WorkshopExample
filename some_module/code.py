@@ -21,6 +21,7 @@ for line in f:
         mag_r.append(float(s[7]))
     c += 1
 ra = np.array(ra)
+print("testing")
 dec = np.array(dec)
 z = np.array(z)
 quality = np.array(quality)
